@@ -1,0 +1,19 @@
+name: 'Application Auth'
+description: ''
+inputs:
+  private-key:
+    description: 'private key of the app'
+    required: true
+  app-id:
+    description: 'the id of the app'
+    required: true
+  installation-id:
+    description: 'the id of the installation in the org'
+    required: true
+
+outputs:
+  token:
+    description: 'the short-lived token used for authentication'
+runs:
+  using: 'node16'
+  main: 'index.js'
