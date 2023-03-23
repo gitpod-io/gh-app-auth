@@ -16,4 +16,4 @@ outputs:
     description: 'the short-lived token used for authentication'
 runs:
   using: 'node16'
-  main: 'index.js'
+  main: 'index.mjs'
